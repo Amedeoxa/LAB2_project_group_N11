@@ -1,0 +1,3 @@
+# working query string for pos dataset
+
+(fragment:false) AND (taxonomy_id:2759) AND (length:[40 TO *]) AND (reviewed:true) AND (existence:1) AND (ft_signal_exp:*)
