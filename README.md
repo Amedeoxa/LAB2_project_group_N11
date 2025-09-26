@@ -17,5 +17,8 @@ This project is a fundamental part of the Lab2 exam.
 - Sequences were clustered separately with MMseqs, applying a 30% sequence identity threshold and 40% coverage.
 - The number of unique IDs after clustering was **1193** for the positive set and **8934** for the negative set.
 - From these clusters, we generated two new TSV files containing only the representative IDs and their associated features in [`non_redundant_pos.tsv`](non_redundant_pos.tsv) and [`non_redundant_neg.tsv`](non_redundant_neg.tsv)
-- We divided the datasets in training (80% positives + 80% negatives) and test (20% positives + 20% negatives) sets 
+- We divided the datasets in training (80% positives + 80% negatives) and test (20% positives + 20% negatives) sets and splitted the training set in 5 subsets.
 ---
+## Data Analysis
+- We compared the distributions of protein lengths between positive and negative sequences by plotting them with histograms and boxplots.  
+- Then, we plotted the distribution of SP lengths using a histogram.
